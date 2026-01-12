@@ -9,10 +9,56 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .container{
     width: 500px;
     height: 300px;
-    border: 2px solid black;
+    border: 5px solid orange;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 10px brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+label{
+    margin: 20px 0 0;
+    font-size: 1.5rem;
+}
+
+#num{
+    font-size: 1.3rem;
+    padding: 0.5px;
+    border-radius: 10px;
+    height: 35px;
+}
+
+#num:focus{
+    border: 5px solid orange;
+    outline: none;    
+}
+
+button{
+    width: 100px;
+    color: white;
+    height: 40px;
+    font-size: 1.2rem;
+    background-color: rgb(3, 3, 63);
+    border-radius: 15px;
+    border: none;
+}
+
+button:hover{
+    background-color: green;
+    cursor: pointer;
 }
